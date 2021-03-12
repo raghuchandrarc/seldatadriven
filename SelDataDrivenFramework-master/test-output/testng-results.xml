@@ -1,0 +1,2275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="50" passed="0" failed="0" skipped="42">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-08T18:09:09 IST" name="Airbnb Test" finished-at="2020-12-08T18:09:11 IST" duration-ms="2768">
+    <groups>
+    </groups>
+    <test started-at="2020-12-08T18:09:09 IST" name="Test1" finished-at="2020-12-08T18:09:10 IST" duration-ms="1323">
+      <class name="Tests.AirbnbTests1">
+        <test-method is-config="true" signature="intializeReport(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:09 IST" name="intializeReport" finished-at="2020-12-08T18:09:09 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeReport -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:09 IST" name="LaunchApplication" finished-at="2020-12-08T18:09:10 IST" duration-ms="551" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:09 IST" name="LaunchApplication" finished-at="2020-12-08T18:09:10 IST" duration-ms="841" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:09 IST" name="LaunchApplication" finished-at="2020-12-08T18:09:10 IST" duration-ms="888" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:09 IST" name="LaunchApplication" finished-at="2020-12-08T18:09:10 IST" duration-ms="657" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:09 IST" name="LaunchApplication" finished-at="2020-12-08T18:09:10 IST" duration-ms="721" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test14()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test14" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150183" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150213" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test15()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test15" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150227" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test1()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test1" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150229" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test16()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test16" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test16 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150249" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150251" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test17()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test17" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test17 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150266" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150271" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150329" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150336" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test19()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test19" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test19 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150374" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150377" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test18()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test18" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test18 -->
+        <test-method signature="test2()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test2" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150385" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150386" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test11()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test11" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method signature="test20()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test20" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test20 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150394" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150396" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150399" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150400" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test22()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test22" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150451" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150453" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test23()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test23" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test23 -->
+        <test-method signature="test21()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test21" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test21 -->
+        <test-method signature="test10()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test10" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method signature="test13()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test13" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150461" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150478" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150482" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150484" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150484" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test25()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test25" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test25 -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150488" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test4()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test4" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150493" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test24()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test24" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test24 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150497" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150502" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150503" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150507" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test7()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test7" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150519" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150521" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test8()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test8" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150527" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test5()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="test5" finished-at="2020-12-08T18:09:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:39)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at java.base/java.net.URL.<init>(URL.java:585)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150534" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150538" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@5d7148e2]" started-at="2020-12-08T18:09:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431150547" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AirbnbTests1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2020-12-08T18:09:11 IST" name="Test2" finished-at="2020-12-08T18:09:11 IST" duration-ms="429">
+      <class name="Tests.AirbnbTests1">
+        <test-method is-config="true" signature="intializeReport(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="intializeReport" finished-at="2020-12-08T18:09:11 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeReport -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="2020-12-08T18:09:11 IST" duration-ms="48" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="2020-12-08T18:09:11 IST" duration-ms="150" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="2020-12-08T18:09:11 IST" duration-ms="215" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="2020-12-08T18:09:11 IST" duration-ms="83" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="2020-12-08T18:09:11 IST" duration-ms="261" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test1()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test1" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test13()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test13" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151683" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151698" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151701" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151702" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test11()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test11" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151813" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test16()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test16" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test16 -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151831" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test17()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test17" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test17 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151837" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151840" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test18()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test18" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test18 -->
+        <test-method signature="test10()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test10" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method signature="test15()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test15" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151860" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151861" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test14()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test14" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151863" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151865" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151866" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151867" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151870" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151875" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test20()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test20" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test20 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151883" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test2()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test2" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151885" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test19()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test19" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test19 -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151890" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151891" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151893" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test23()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test23" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test23 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151895" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151899" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test22()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test22" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22 -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151922" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151926" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151929" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test4()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test4" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151935" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151939" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test5()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test5" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test24()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test24" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test24 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151949" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test21()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test21" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test21 -->
+        <test-method signature="test25()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test25" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test25 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151952" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151952" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151954" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test7()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test7" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151961" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="LaunchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151963" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="test8()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="test8" finished-at="2020-12-08T18:09:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException
+at java.base/java.net.URL.<init>(URL.java:679)
+at java.base/java.net.URL.<init>(URL.java:541)
+at java.base/java.net.URL.<init>(URL.java:488)
+at testBase.BrowserFactory.createBrowserInstance(BrowserFactory.java:43)
+at testBase.TestBase.LaunchApplication(TestBase.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151968" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151973" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AirbnbTests1@1de5f259]" started-at="2020-12-08T18:09:11 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607431151991" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AirbnbTests1 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Airbnb Test -->
+</testng-results>
